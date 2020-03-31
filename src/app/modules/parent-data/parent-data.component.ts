@@ -15,7 +15,7 @@ dataCollection:Array<string> =[];
    * @ author   : Shivam
    */
 constructor() {
-    for (let i=1;i<=100;i++){
+    for (let i:number=1;i<=100;i++){
       this.dataCollection.push(`item ${i}`);
     }
    }
